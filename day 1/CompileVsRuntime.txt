@@ -1,0 +1,46 @@
+JVM execution and JIT Execution 
+
+JVM Execution:
+    Interpreter(Line By Line execution)
+
+    When one method is called again and again 
+    it is interpreted again and again by JVM
+
+JIT Execution :
+    JIT provides machine code for methods that are called
+    again and again
+
+    so no reinterpretation is done
+
+    garbage collection is also done by JIT
+
+
+********  Compile Time Vs RunTime  ********
+
+Compile Time :
+        .java file ---> .class file
+
+RunTime :
+
+    Class Loader  --------->  Does Three Job:
+         |                          ##Loading  ##Linking  ##Initialization
+   Byte Code Verifier
+         |
+    Interpreter
+         |
+      Runtime
+         |
+      Hardware
+
+##loading :
+    Reads .class file to generate binary code
+    and the objects in the class are stored in the heap
+
+## Linking:
+    JVM reads the class files and allocates 
+    memory for variables.
+
+## Initialization :
+    All variables in the stack are assigned with the objects in the heap
+
+    {{{Next : HelloWorld.java}}}

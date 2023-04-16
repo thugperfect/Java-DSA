@@ -1,0 +1,30 @@
+************Static and Dynamic**************
+
+There are two types of languages based on code execution
+
+these are Static and Dynamic execution
+
+Static :
+    Type checking is done at Compile Time.
+    [ 
+        Type checking is checking the data type of the input variable
+        eg: int a = 10
+        while compiling the code that is when the byte code generation 
+        process, it checks for the data type. 
+    ]
+    In such Static Languages, Data Type specifying is compulsary.
+
+    eg:java,c,c++.
+
+Dynamic :
+    Type checking is done only at the Run time 
+    [
+        Runtime is the process after compilation
+        where the machine code is executed by the computer.
+    ]
+    In such languages, it is not compulsary to specify data.
+
+    eg: python.
+
+
+              {{{ Next : Memory Management }}}

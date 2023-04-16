@@ -1,0 +1,20 @@
+Types of Languages :
+
+## Procedural :
+            well structured steps for coding
+            eg:java ,c,c++,python...
+
+## Functional :
+            writing code in form of Functions
+            eg:python
+
+## Object Oriented:
+[class: named group of properties and functions && Collection of all Data types]
+Instance of a class is called an Object
+==> Languages that are dealing with such objects are called as Object Oriented Languages...
+
+            eg:java, python, c++...
+
+
+
+            {{{ Next : Static Vs Dynamic }}}

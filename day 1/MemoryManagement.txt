@@ -1,0 +1,40 @@
+****************** Memory Management **********************
+
+There are Two types of Memory...
+
+    ## Stack Memory  &&  ## Heap Memory
+
+
+    Eg :
+            let us see a simple variable declaration...
+
+              reference variable
+                 |                
+             int a = 10 -->Object
+              |
+            data type
+              
+            Then the following declaration can be allocated 
+            in the Memory as ...
+
+
+    |               |                    ______
+    |               |                   /      \
+    |               |                  /        \
+    |               |                 /          \
+    |               |                /            \
+    |               |               /              \
+    |       a  -----|--------------/------>10       \
+    |_______________|             /                  \
+          Stack                           Heap
+
+        From the above diagram we can conclude that 
+        stack stores the variable and heap stores the
+        actual object ...
+
+        The Reference variable that is contained  by the stack
+        points to the Object in the Heap...
+
+
+
+                  {{{ Next : Garbage Collection }}}

@@ -1,0 +1,12 @@
+{{{after : Memory Management}}}
+
+In Static as well as Dynamic Languages there is a special process call garbage Collection
+
+which is nothing but,
+    A reference variable in the stack pointing to a specific object in a heap
+    all of sudden when the reference variable points to another object
+    the already pointed object becomes abandoned(when a object does not have a reference variable)
+
+    such objects are removed when garbage collection hits...
+
+    {{{ Next: Java Architecture }}}

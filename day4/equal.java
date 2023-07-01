@@ -24,7 +24,7 @@ public class equal {
         else{
             System.out.println("bye mf .equals()");
         }
-
+        
 
 
     }

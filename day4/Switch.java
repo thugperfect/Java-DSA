@@ -8,7 +8,7 @@ class Switch {        //class names should not be methods name
         Scanner s = new Scanner(System.in);
         
         System.out.println("*************Basic Calculator***********\n\n");
-        while(true){
+        while(true){        //does not terminate calc
         int first = s.nextInt();
         char op = s.next().trim().charAt(0);
         int last = s.nextInt();
